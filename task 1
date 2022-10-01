@@ -1,0 +1,7 @@
+year=2022
+if year%100==0 and year%400==0 :
+  print("366 days leap year")
+elif year%100!=0 and year%4==0 :
+  print("366 days leap year")
+else : 
+  print("365 days not a leap year")
