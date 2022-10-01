@@ -1,0 +1,7 @@
+length=int(input("Enter your length: "))
+if length>=170:
+  print("tall")
+elif length <170 and length >160 :
+  print("normal")
+else:
+  print("short")
